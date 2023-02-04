@@ -22,7 +22,7 @@ export class News extends Component {
     
     constructor(props){
         super(props);
-        console.log("Hello im a constructor from News component");
+        // console.log("Hello im a constructor from News component");
         this.state={
             articles:[],
             loading:false,
