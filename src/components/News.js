@@ -15,13 +15,14 @@ export class News extends Component {
       category:PropTypes.string,
 
    }
+   
    capitalizeFirstLetter= (string)=> {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
     
     constructor(props){
         super(props);
-        // console.log("Hello im a constructor from News component");
+        console.log("Hello im a constructor from News component");
         this.state={
             articles:[],
             loading:false,
