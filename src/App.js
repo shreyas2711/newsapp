@@ -24,7 +24,7 @@ const App=()=>{
       <Router> 
      <Navbar/>
      <LoadingBar height={3}
-        color='#f11946'
+        color='rgb(2, 2, 228)'
         progress={progress}
       />
      <Routes>
